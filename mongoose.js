@@ -3,7 +3,7 @@ let express = require('express'),
     mongoose = require('mongoose'),
     cors = require('cors'),
     bodyParser = require('body-parser'),
-    Bcrypt = require('bcrypt'),
+    Bcrypt = require('bcryptjs'),
     dbConfig = require('./db/database');
 
 
